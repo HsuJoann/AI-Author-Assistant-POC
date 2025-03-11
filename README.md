@@ -32,6 +32,23 @@ set ANTHROPIC_API_KEY=your_api_key_here  # Windows
 export ANTHROPIC_API_KEY=your_api_key_here  # Unix/Linux
 ```
 
+## Environment Setup
+
+1. Copy `.env.example` to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Add your Anthropic API key to `.env`:
+   ```plaintext
+   ANTHROPIC_API_KEY=your_actual_api_key_here
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 ## Usage
 
 ```python
