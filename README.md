@@ -49,7 +49,21 @@ export ANTHROPIC_API_KEY=your_api_key_here  # Unix/Linux
    pip install -r requirements.txt
    ```
 
+## Run this app
+in CMD: 
+streamlit run app.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.86.23:8502
+
+
+
 ## Usage
+
+
+
 
 ```python
 from ai_service import AIService
